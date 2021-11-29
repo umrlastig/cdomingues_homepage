@@ -33,7 +33,7 @@
 
 </head>
 
-<body id="page-top" onload="reviewingVis('reviewing.json'); getJournalPublicationsAuthor('catherine-domingues');getConfPublicationsAuthor('catherine-domingues');getBookPublicationsAuthor('catherine-domingues');
+<body id="page-top" onload="getJournalPublicationsAuthor('catherine-domingues');getConfPublicationsAuthor('catherine-domingues');getBookPublicationsAuthor('catherine-domingues');
 getWorkshopPublicationsAuthor('catherine-domingues');getOtherPublicationsAuthor('catherine-domingues');getInvitedTalksAuthor('catherine-domingues');">
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -62,14 +62,17 @@ getWorkshopPublicationsAuthor('catherine-domingues');getOtherPublicationsAuthor(
           <a class="nav-link js-scroll-trigger lang-en" href="#interest">Research Interests</a>
           <a class="nav-link js-scroll-trigger lang-fr" href="#interest">Sujets de recherche</a>
         </li>
+       <!--
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger lang-en" href="#news">News</a>
           <a class="nav-link js-scroll-trigger lang-fr" href="#news">Actualités</a>
         </li>
+        -->
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger lang-en" href="#experience">Experience</a>
           <a class="nav-link js-scroll-trigger lang-fr" href="#experience">Parcours professionnel</a>
         </li>
+        
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger lang-en" href="#education">Education</a>
           <a class="nav-link js-scroll-trigger lang-fr" href="#education">Formation</a>
@@ -101,20 +104,17 @@ getWorkshopPublicationsAuthor('catherine-domingues');getOtherPublicationsAuthor(
           <a>cath<!--anti@spam.fr!-->erine.domingues@ign.fr</a>
         </div>
         <p class="lead mb-5 lang-en">researcher in natural language processing for cartography.</p>
-        <p class="lead mb-5 lang-en">member of the <a href="">MEIG</a> research team</p>
+        <p class="lead mb-5 lang-en">member of the <a href="https://www.umr-lastig.fr/meig/">MEIG</a> research team</p>
         <p class="lead mb-5 lang-fr">chercheure en traitement automatique des langues pour la cartographie.</p>
-        <p class="lead mb-5 lang-fr">membre de l'équipe <a href="">MEIG</a></p>
+        <p class="lead mb-5 lang-fr">membre de l'équipe <a href="https://www.umr-lastig.fr/meig/">MEIG</a></p>
         <div class="social-icons">
-          <a href="#">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
           <a href="https://www.researchgate.net/profile/Catherine_Domingues">
             <i class="ai ai-researchgate"></i>
           </a>
           <a href="https://github.com/CatherineDOMINGUES-IGN">
             <i class="fab fa-github"></i>
           </a>
-          <a href="#">
+          <a href="https://hal.archives-ouvertes.fr/search/index/?q=%2A&authIdHal_s=catherine-domingues">
             <i class="ai"><img src="img/icons/hal-b2.svg" width=45px/></i>
           </a>
         </div>
@@ -124,102 +124,251 @@ getWorkshopPublicationsAuthor('catherine-domingues');getOtherPublicationsAuthor(
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="interest">
+
       <div class="w-100">
         <h2 class="mb-5 lang-en">Research Interests</h2>
         <h2 class="mb-5 lang-fr">Sujets de recherche</h2>
         <hr class="star-dark mb-5">
         <div class="row">
-    <article class="col-md-6 col-lg-4">
-	<div class="portfolio-item d-block mx-auto">
-	<img class="img-fluid" src="img/pasdimage.png" alt="" />
-	<div class="portfolio-desc d-flex align-center position-absolute h-100 w-100">
-	<div class="folio-info my-auto w-100 text-center">
-             <h5 class="lang-en">Places and placenames</h5>
-             <h5 class="lang-fr">Lieux et noms de lieux</h5>
-		</div>
-	   </div>
-	</div>
-      </article>
-          <article class="col-md-6 col-lg-4">
-		 <div class="portfolio-item d-block mx-auto">
-                  <img class="img-fluid" src="img/pasdimage.png" alt="" />
-                  <div class="portfolio-desc align-center position-absolute h-100 w-100">
-                    <div class="folio-info my-auto w-100 text-center">
-                      <h5 class="lang-en">Expressive variations of placename spelling</h5>
-                      <h5 class="lang-fr">Variations expressives des noms de lieux</h5>
-                    </div>
-                  </div>
-                </div>
-          </article>
-          <div article ="col-md-6 col-lg-4">
-                <div class="portfolio-item d-block mx-auto">
-                  <img class="img-fluid" src="img/pasdimage.png" alt="" />
-                  <div class="portfolio-desc d-flex align-center position-absolute h-100 w-100">
-                    <div class="folio-info my-auto w-100 text-center">
-                      <h5 class="lang-en">Located information retrieval</h5>
-                      <h5 class="lang-fr">Recherche d'information localisée</h5>
-                    </div>
-                  </div>
-                </div>
-          </article>
-          <article class="col-md-6 col-lg-4">
-                <div class="portfolio-item d-block mx-auto">
-                  <img class="img-fluid" src="img/pasdimage.png" alt="" />
-                  <div class="portfolio-desc align-center position-absolute h-100 w-100">
-                    <div class="folio-info w-100 text-center">
-                      <h5 class="lang-en">Sensitive maps</h5>
-                      <h5 class="lang-fr">Cartographie sensible</h5>
-                    </div>
-                  </div>
-                </div>
-          </article>
-          <article class="col-md-6 col-lg-4">
-                <div class="portfolio-item d-block mx-auto">
-                  <img class="img-fluid" src="img/pasdimage.png" alt="" />
-                  <div class="portfolio-desc align-center position-absolute h-100 w-100">
-                    <div class="folio-info w-100 text-center">
-                      <h5 class="lang-en">Data mining</h5>
-                      <h5 class="lang-fr">Fouille de textes</h5>
-                    </div>
-                  </div>
-                </div>
-          </article>
 
+        <h5 class="lang-en">Places and placenames</h5>
+        <h5 class="lang-fr">Lieux et noms de lieux</h5>
+        </div>
+        <div class="row">                 
+        <h5 class="lang-en">Expressive variations of placename spelling</h5>
+        <h5 class="lang-fr">Variations expressives des noms de lieux</h5>
+        </div>
+        <div class="row">                 
+        <h5 class="lang-en">Located information retrieval</h5>
+        <h5 class="lang-fr">Recherche d'information localisée</h5>
+        </div>
+        <div class="row">                 
+        <h5 class="lang-en">Sensitive maps</h5>
+        <h5 class="lang-fr">Cartographie sensible</h5>
+        </div>
+        <div class="row">                 
+        <h5 class="lang-en">Data mining</h5>
+        <h5 class="lang-fr">Fouille de textes</h5>
+
+         <!-- <article class="col-md-6 col-lg-4">
+            <div class="portfolio-item d-block mx-auto">
+              <img class="img-fluid" src="img/logoPARVIS.png" alt="" />
+              <div class="portfolio-desc d-flex align-center position-absolute h-100 w-100">
+                <div class="folio-info my-auto w-100 text-center">
+                
+                  <h5 class="lang-en">Places and placenames</h5>
+                  <h5 class="lang-fr">Lieux et noms de lieux</h5>
+                
+                </div>
+              </div>
+            </div>
+          </article>
+          
+          <article class="col-md-6 col-lg-4">
+            <div class="portfolio-item d-block mx-auto">
+              <img class="img-fluid" src="img/pasdimage.png" alt="" />
+              <div class="portfolio-desc align-center position-absolute h-100 w-100">
+                <div class="folio-info my-auto w-100 text-center">
+                  <h5 class="lang-en">Expressive variations of placename spelling</h5>
+                  <h5 class="lang-fr">Variations expressives des noms de lieux</h5>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-6 col-lg-4">
+            <div class="portfolio-item d-block mx-auto">
+              <img class="img-fluid" src="img/pasdimage.png" alt="" />
+              <div class="portfolio-desc d-flex align-center position-absolute h-100 w-100">
+                <div class="folio-info my-auto w-100 text-center">
+                  <h5 class="lang-en">Located information retrieval</h5>
+                  <h5 class="lang-fr">Recherche d'information localisée</h5>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-6 col-lg-4">
+            <div class="portfolio-item d-block mx-auto">
+              <img class="img-fluid" src="img/pasdimage.png" alt="" />
+              <div class="portfolio-desc align-center position-absolute h-100 w-100">
+                <div class="folio-info w-100 text-center">
+                  <h5 class="lang-en">Sensitive maps</h5>
+                  <h5 class="lang-fr">Cartographie sensible</h5>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-6 col-lg-4">
+            <div class="portfolio-item d-block mx-auto">
+              <img class="img-fluid" src="img/pasdimage.png" alt="" />
+              <div class="portfolio-desc align-center position-absolute h-100 w-100">
+                <div class="folio-info w-100 text-center">
+                  <h5 class="lang-en">Data mining</h5>
+                  <h5 class="lang-fr">Fouille de textes</h5>
+                </div>
+              </div>
+            </div>
+          </article>
+        -->
+        </div>
+        </div>
+    </section>
+
+
+    <hr class="m-0">
+
+ 
+    <section id="experience" class="section appear clearfix">
+      <div class="container mar-bot50">
+        <div class="row mar-bot40">
+          <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Experience</h2>
+              <h3 class="section-subheading text-muted mb-5">Past jobs and roles in research</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="img-circle img-responsive" src="" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>10-09-2004</h4>
+                    <h4 class="subheading">Research assistant</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">I start working at IGN France as a research assistant in the COGIT research team, assisting Cécile Duchêne and Anne Ruas on map generalisation.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="img-circle img-responsive" src="" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>01-01-2008</h4>
+                    <h4 class="subheading">PhD student</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">My PhD, <a href="http://recherche.ign.fr/labos/cogit/pdf/THESES/TOUYA/theseTouya.pdf">obtained in June 2011</a>, was supervised by Cécile Duchêne and Anne Ruas, and dealt with collaborative map generalisation.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="img-circle img-responsive" src="" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>01-07-2011</h4>
+                    <h4 class="subheading">Senior researcher at COGIT research team, IGN</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">After my PhD, I become a senior researcher, still in COGIT team, at IGN France. I'm part of the group on automated cartography and geovisualization.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="img-circle img-responsive" src="" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>04-05-2017</h4>
+                    <h4 class="subheading">Habilitation defense</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Defense of my <a href="http://recherche.ign.fr/labos/cogit/pdf/HDR/hdr-touya-2017.pdf">habilitation (HDR)</a> in GI science, which allows in France to be the main supervisor of PhD students.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="img-circle img-responsive" src="" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>15-07-2017</h4>
+                    <h4 class="subheading">Head of COGIT research team</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">I take over the leadership if the COGIT research team from Sébastien Mustière.</a></p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="img-circle img-responsive" src="" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>01-09-2018</h4>
+                    <h4 class="subheading">Vice-head of LASTIG lab</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">I become the vice-head of the new <a href="http://umrlastig.github.io/website">LASTIG lab.</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
+
+
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
         <h2 class="mb-5">Education</h2>
 
-          <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
             <h3 class="mb-0">Université Paris-Est</h3>
-            <div class="subheading mb-3 lang-en">Habilitation (HDR) - Natural Language Processing </div>
-            <div class="subheading mb-3 lang-fr">Habilitation à diriger des recherches - spécialité : sciences du langage</div> 
-			<div class="subheading mb-3 lang-en">PhD in Computer Science - Natural Language Processing</div>
-            <div class="subheading mb-3 lang-fr">Thèse en informatique - traitement automatique des langues</div>
-          </div>
-          <div class="resume-date text-md-right">
-			<span class="text-primary lang-en">November 2020</span>
-			<span class="text-primary lang-fr">novembre 2020</span> 
-			<span class="text-primary lang-en">March 2001</span>
-            <span class="text-primary lang-fr">mars 2001</span>
-          </div>
-        </div>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="row">
+              <div class="col-md-8">
+                <div class="subheading mb-3 lang-en">Habilitation (HDR) - Natural Language Processing</div>
+                <div class="subheading mb-3 lang-fr">Habilitation à diriger des recherches - spécialité : sciences du langage</div>
+              </div>
+              <div class="col-md-4">
+                <div class="text-right text-primary lang-en resume-date " >November 2020</div>
+                <div class="text-right text-primary lang-fr resume-date " >novembre 2020</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
+                <div class="subheading mb-3 lang-en">PhD in Computer Science - Natural Language Processing</div>
+                <div class="subheading mb-3 lang-fr">Thèse en informatique - traitement automatique des langues</div>
+              </div>
+              <div class="col-md-4">
+                <div class="text-right text-primary lang-en resume-date " >March 2001</div>
+                <div class="text-right text-primary lang-fr resume-date " >mars 2001</div>
+              </div>
+            </div>
+          
+
           <div class="resume-content">
             <h3 class="mb-0">Paris 5, Paris 11</h3>
-            <div class="subheading mb-3 lang-fr">DEA Fondements des systèmes informatiques</div>
-            <div class="subheading mb-3 lang-en">DEA Theoretical foundations of computer systems</div>
+            <div class="row">
+              <div class="col-md-8">
+                <div class="subheading mb-3 lang-en">DEA Theoretical foundations of computer systems</div>
+                <div class="subheading mb-3 lang-fr">DEA Fondements des systèmes informatiques</div>
+              </div>
+              <div class="col-md-4">
+                <div class="text-right text-primary lang-en resume-date " >June 1989</div>
+                <div class="text-right text-primary lang-fr resume-date " >juin 1989</div>
+              </div>
+            </div>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary lang-fr">juin 1989</span>
-            <span class="text-primary lang-en">June 1989</span>
-          </div>
+
+
         </div>
+      </div>
+    </div>
+      
     </section>
 
 	
@@ -283,82 +432,82 @@ getWorkshopPublicationsAuthor('catherine-domingues');getOtherPublicationsAuthor(
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
       <div class="container">
         <div class="row text-center title">
-          <h2> class="lang-en"> Projects</h2>
-          <h2> class="lang-fr"> Projets</h2>
+          <h2 class="lang-en"> Projects</h2>
+          <h2 class="lang-fr"> Projets</h2>
         </div>
         <div class="subheading mb-3 lang-en">On-going and past research projects</div>
-	<div class="subheading mb-3 lang-fr">Projets terminés et projets en cours</div>
-	      
+        <div class="subheading mb-3 lang-fr">Projets terminés et projets en cours</div>
+
         <div class="row projects">
           <div class="col-md-4">
             <div class="project">
               <div class="icon-holder">
-                <img src="img/icons/pasdimage.png" alt="" class="icon">
+                <img src="img/logoPARVIS.png" alt="" class="icon">
               </div>
               <h4 class="heading">PARVIS<br>2019-2022</h4>
               <p class="description lang-fr" href="https://parvis.hypotheses.org/">Paroles de villes.</p>
               <p class="description lang-en" href="https://parvis.hypotheses.org/">Paroles de villes.
-		    <br><a href="https://parvis.hypotheses.org/">Site Web</a> </p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <div class="icon-holder">
-                <img src="img/icons/image-cropped-Cité-des-dames.png" alt="" class="icon">
+                <br><a href="https://parvis.hypotheses.org/">Site Web</a> </p>
               </div>
-              <h4 class="heading">Cité des dames<br>2019-2022</h4>
-              <p class="description lang-en">female creators in the city.</p>
-              <p class="description lang-fr">créatrices dans la cité.
-		    <br><a href="https://citedesdames.hypotheses.org/a-propos">Site Web</a></p>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <div class="icon-holder">
-                <img src="img/icons/pasdimage.jpg" alt="" class="icon">
+            <div class="col-md-4">
+              <div class="project">
+                <div class="icon-holder">
+                  <img src="img/Cité-des-dames.jpg" alt="" class="icon">
+                </div>
+                <h4 class="heading">Cité des dames<br>2019-2022</h4>
+                <p class="description lang-en">female creators in the city.</p>
+                <p class="description lang-fr">créatrices dans la cité.
+                  <br><a href="https://citedesdames.hypotheses.org/a-propos">Site Web</a></p>
+                </div>
               </div>
-              <h4 class="heading">Des récits à la carte<br>2016-2020</h4>
-              <p class="description lang-fr"> méthodologies, technologies et approches sensibles pour cartographier des récits de vie de réfugiés rwandais.</p>
-				<p class="description lang-en"> méthodologies, technologies et approches sensibles pour cartographier des récits de vie de réfugiés rwandais.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <div class="icon-holder">
-                <img src="img/icons/pasdimage.jpg" alt="" class="icon">
+              <div class="col-md-4">
+                <div class="project">
+                  <div class="icon-holder">
+                    <img src="img/icons/pasdimage.jpg" alt="" class="icon">
+                  </div>
+                  <h4 class="heading">Des récits à la carte<br>2016-2020</h4>
+                  <p class="description lang-fr"> méthodologies, technologies et approches sensibles pour cartographier des récits de vie de réfugiés rwandais.</p>
+                  <p class="description lang-en"> méthodologies, technologies et approches sensibles pour cartographier des récits de vie de réfugiés rwandais.</p>
+                </div>
               </div>
-              <h4 class="heading">CHOUCAS<br>2017-2021</h4>
-              <p class="description lang-fr">Intégration de données hétérogènes et raisonnement spatial pour l’aide à la localisation des victimes en montagne.
-		       <br><a href="http://choucas.ign.fr/">site Web</a></p>
-	      <p class="description lang-en"Integration of heterogeneous data and spatial reasoning to help locate victims in mountainous areas.
-				<br><a href="http://choucas.ign.fr/">Website</a></p>
-		     
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <div class="icon-holder">
-                <img src="img/icons/pasdimage.jpg" alt="" class="icon">
+              <div class="col-md-4">
+                <div class="project">
+                  <div class="icon-holder">
+                    <img src="img/logo-choucas2.png" alt="" class="icon">
+                  </div>
+                  <h4 class="heading">CHOUCAS<br>2017-2021</h4>
+                  <p class="description lang-fr">Intégration de données hétérogènes et raisonnement spatial pour l’aide à la localisation des victimes en montagne.
+                   <br><a href="http://choucas.ign.fr/">site Web</a></p>
+                   <p class="description lang-en"Integration of heterogeneous data and spatial reasoning to help locate victims in mountainous areas.
+                   <br><a href="http://choucas.ign.fr/">Website</a></p>
+
+                 </div>
+               </div>
+               <div class="col-md-4">
+                <div class="project">
+                  <div class="icon-holder">
+                    <img src="img/icons/pasdimage.jpg" alt="" class="icon">
+                  </div>
+                  <h4 class="heading">MATRICIEL<br>2016-2017</h4>
+                  <p class="description lang-en">Places and associated perceptions in Spanish Republicans' life stories.</p>
+                  <p class="description lang-fr">Lieux et perceptions associées dans des récits de vie de Républicains espagnols.</p>
+                </div>
               </div>
-              <h4 class="heading">MATRICIEL<br>2016-2017</h4>
-             <p class="description lang-en">Places and associated perceptions in Spanish Republicans' life stories.</p>
-             <p class="description lang-fr">Lieux et perceptions associées dans des récits de vie de Républicains espagnols.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <div class="icon-holder">
-                <img src="img/icons/cartasur.png" alt="" class="icon">
+              <div class="col-md-4">
+                <div class="project">
+                  <div class="icon-holder">
+                    <img src="img/cartasur.png" alt="" class="icon">
+                  </div>
+                  <h4 class="heading">CartASUR<br>2012-2016</h4>
+                  <p class="description lang-en">Cartographie de la qualité des ambiances sonores urbaines.</p>
+                  <p class="description lang-fr">Mapping of the urban sound quality.</p>
+                </div>
               </div>
-              <h4 class="heading">CartASUR<br>2012-2016</h4>
-              <p class="description lang-en">Cartographie de la qualité des ambiances sonores urbaines.</p>
-	      <p class="description lang-fr">Mapping of the urban sound quality.</p>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="cut cut-bottom"></div>
-    </section>
+          <div class="cut cut-bottom"></div>
+        </section>
 
     <hr class="m-0">
 
@@ -370,7 +519,7 @@ getWorkshopPublicationsAuthor('catherine-domingues');getOtherPublicationsAuthor(
 
         <div class="subheading mb-3 mt-3">Teaching</div>
 
-        <div class="subheading mb-3 mt-3">Other research activities</div>
+        
         
         <div class="subheading mb-3 mt-3 lang-en">Supervisions</div>
         <ul class="fa-ul mb-0">
@@ -415,5 +564,3 @@ getWorkshopPublicationsAuthor('catherine-domingues');getOtherPublicationsAuthor(
 </body>
 
 </html>
-
-
